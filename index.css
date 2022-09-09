@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+div.first{
+    font-size: 15px;
+}
+nav{
+    background-color: rgb(45, 44, 44);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+
+    
+}
+p.lorem{
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    position: relative;
+    bottom: -250px;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    bottom: -250px;
+}
+button.button1{
+    position: relative;
+    bottom: -270px;
+    left: 600px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(54, 212, 54);
+    border: none;
+    color: white;
+   
+    
+}
+span{
+    color: green;
+}
+article.article{
+    background-image: url('showcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 700px;  
+}
+h2.word{
+    color: white;
+    font-size:20px;
+    font-weight: bold;
+    /* position: relative;
+    right: 460px; */
+}
+ul{
+    list-style: none;
+    
+    
+}
+h2.word3{
+    color: white;
+}
+a:hover{
+    background-color: green;
+    padding: 2px;
+    border-radius: 7px;
+}
+li{
+    display: inline-block;
+    margin-right: 30px;
+  
+    font-size: 15px;
+    
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+h2.word2{
+    /* margin: 10px 100px; */
+    position: relative;
+    right: -590px;
+    top: 20px;
+}
+section{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    top: 40px;
+}
+div.first{
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    right: -20px;
+}
+div.second{
+    text-align: center;
+    font-size: 12px;
+}
+div.third{
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    left: -20px;
+}
+article>img{
+    height: 400px;
+    width: 700px;
+    position: relative;
+    bottom: -100px;
+}
+article.article2{
+    display: flex;
+}
+form>h2{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+article p{
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+h3{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+article>form{
+    background-color: gray;
+    position: relative;
+    top: 100px;
+    width: 700px;
+    height: 400px;
+}
+article li{
+    display: block;
+    color: white;
+    margin-top: 20px;
+   margin-left: 10px;
+    font-size: 15px;
+}
+div.fourth{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px;
+    position: relative;
+    bottom: -150px;
+    align-items: center;
+}
+div.fourth img{
+    width: 100px;
+    height: 100px;
+}
+div.fifth{
+    position: relative;
+    bottom: -150px;
+}
+div.fifth{
+    display: flex;
+    background-color: rgb(13, 119, 13);
+    width: 800px;
+    align-items: center;
+    position: relative;
+    bottom: -180px;
+}
+div.fifth p{
+    color: white;
+    font-size: 13px;
+}
+div.fifth h2{
+    color: white;
+    position: relative;
+    top: -10px;
+}
+p.p{
+    position: relative;
+    right: -10px;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    border: none;
+}
+textarea{
+    width: 90%;
+    border: none;
+}
+div.form-group{
+    width: 700px;
+    margin: 5px;
+    position: relative;
+    right: -12px;
+    bottom: -19px;
+}
+div.fifth button{
+    background-color: rgb(45, 44, 44);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 5px;
+    width: 90%;
+    margin-top: 2px;
+    position: relative;
+    bottom: -20px;
+    right: -13px;
+}
+img.last{
+    width: 900px;
+    height: 400px;   
+    position: relative;
+    right: -50px;
+}
+div+p{
+    position: relative;
+    bottom: -180px;
+    background-color: rgb(45, 44, 44);
+    height: 30px;
+    text-align: center;
+    padding: 7px;
+    color: white;
+}
